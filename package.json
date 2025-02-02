@@ -5,9 +5,9 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "prepare": "yarn build && yarn test",
-    "test": "yarn jest",
-    "build": "yarn tsc",
+    "prepare": "npm run build && npm run test",
+    "test": "jest",
+    "build": "tsc",
     "format": "prettier --write './src/**/(*.ts|*.tsx|*.html|*.css)'"
   },
   "repository": {
